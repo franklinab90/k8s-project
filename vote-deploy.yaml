@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: vote
 spec:
-  replication: 1
+  replicas: 1
   selector:
     matchLabels:
       app: vote
